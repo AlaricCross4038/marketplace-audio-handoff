@@ -1,0 +1,8 @@
+{
+  "name": "marketplace-audio-handoff",
+  "private": true,
+  "type": "module",
+  "scripts": {"start": "tsx src/marketplace_handoff.ts", "test": "tsx src/marketplace_handoff.test.ts", "typecheck": "tsc --noEmit"},
+  "dependencies": {"openai": "^4.0.0", "zod": "^3.0.0"},
+  "devDependencies": {"tsx": "^4.0.0", "typescript": "^5.0.0"}
+}
